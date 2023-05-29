@@ -6,7 +6,7 @@ Plug('fatih/vim-go', {['do'] = vim.fn['GoUpdateBinaries']})
 Plug 'evanleck/vim-svelte'
 Plug 'lervag/vimtex'
 Plug 'cespare/vim-toml'
-
+Plug 'christoomey/vim-tmux-navigator'
 Plug('junegunn/fzf', { ['do'] =vim.fn['fzf#install()'] })
 Plug 'junegunn/fzf.vim'
 Plug 'nvim-lua/plenary.nvim'
