@@ -3,6 +3,7 @@ vim.call('plug#begin', '~/.config/nvim/plugged')
 
 Plug('neoclide/coc.nvim', {branch = 'release'})
 Plug('fatih/vim-go', {['do'] = vim.fn['GoUpdateBinaries']})
+Plug('buoto/gotests-vim')
 Plug 'evanleck/vim-svelte'
 Plug 'lervag/vimtex'
 Plug 'cespare/vim-toml'
