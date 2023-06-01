@@ -1,0 +1,5 @@
+alias cdd='cd $(find . -type d | fzf --preview "exa -T -D {}" --preview-window "~3")'
+alias nvf='nvim $(find . -type f | fzf --preview "bat --color=always {}" --preview-window "~3")'
+alias ls='exa'
+alias cat='bat'
+alias grep='ripgrep'
