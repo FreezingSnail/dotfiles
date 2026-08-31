@@ -1,0 +1,5 @@
+#!/usr/bin/env fish
+
+# Resolve the sibling function file so this launcher works from any checkout.
+source (status dirname)/alacritty-opacity.fish
+alacritty-opacity

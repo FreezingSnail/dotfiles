@@ -1,0 +1,54 @@
+# Frutiger Aero — saturated sky, water, glass, and vegetation on deep aqua.
+
+[colors.primary]
+background = '#064957'
+foreground = '#F2FDFF'
+bright_foreground = '#FFFFFF'
+
+[colors.cursor]
+text = '#064957'
+cursor = '#A8F7FF'
+
+[colors.selection]
+text = '#FFFFFF'
+background = '#0D6E91'
+
+[colors.normal]
+black = '#064957'
+red = '#FF6B7A'
+green = '#66E6A0'
+yellow = '#FFE36E'
+blue = '#B8EDFF'
+magenta = '#C28CFF'
+cyan = '#6DE8F5'
+white = '#F2FDFF'
+
+[colors.bright]
+black = '#1C7491'
+red = '#FF92A0'
+green = '#9CFFC3'
+yellow = '#FFF0A6'
+blue = '#D6F8FF'
+magenta = '#E0BAFF'
+cyan = '#A8F7FF'
+white = '#FFFFFF'
+
+[colors.search.matches]
+foreground = '#064957'
+background = '#FFE36E'
+
+[colors.search.focused_match]
+foreground = '#064957'
+background = '#66E6A0'
+
+[colors.footer_bar]
+foreground = '#F2FDFF'
+background = '#07516F'
+
+[colors.hints.start]
+foreground = '#064957'
+background = '#FFE36E'
+
+[colors.hints.end]
+foreground = '#F2FDFF'
+background = '#07516F'

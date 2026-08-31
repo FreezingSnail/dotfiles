@@ -1,0 +1,16 @@
+import = ["~/.config/alacritty/frutiger_aero.toml"]
+
+[window]
+opacity = 0.69
+blur = true
+decorations = "Transparent"
+dynamic_padding = true
+
+[font]
+size = 14
+normal = { family = "FiraMono Nerd Font Mono", style = "Regular" }
+
+[[keyboard.bindings]]
+key = "F"
+mods = "Command|Shift"
+action = "ToggleSimpleFullscreen"

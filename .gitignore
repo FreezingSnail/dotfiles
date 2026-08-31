@@ -1,0 +1,28 @@
+.DS_Store
+*.bak
+*.tmp
+*.tmp.*
+
+# Machine-local shell state, not configuration.
+fish/fish_variables
+fish/fishd.tmp.*
+
+# Credential stores and machine identity: never track these, even if a future
+# copy step reaches into a config directory that contains them.
+**/hosts.yml
+**/hosts.json
+**/auth.json
+**/user.json
+**/credentials
+**/credentials.*
+**/.env
+**/.env.*
+**/*_token
+**/*token.json
+**/*secret*
+**/id_rsa*
+**/id_ed25519*
+*.pem
+*.key
+*.p12
+*.keychain
