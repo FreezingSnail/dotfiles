@@ -26,6 +26,10 @@ vim.g.colors_name = "frutiger-aero"
 local highlights = {
   Normal = { fg = c.fg, bg = "NONE" },
   NormalNC = { fg = c.fg, bg = "NONE" },
+  NeoTreeNormal = { fg = c.fg, bg = "NONE" },
+  NeoTreeNormalNC = { fg = c.fg, bg = "NONE" },
+  NeoTreeEndOfBuffer = { fg = c.bg, bg = "NONE" },
+  NeoTreeWinSeparator = { fg = c.border, bg = "NONE" },
   NormalFloat = { fg = c.fg, bg = c.float },
   FloatBorder = { fg = c.aqua, bg = c.float },
   FloatTitle = { fg = c.aqua, bg = c.float, bold = true },
